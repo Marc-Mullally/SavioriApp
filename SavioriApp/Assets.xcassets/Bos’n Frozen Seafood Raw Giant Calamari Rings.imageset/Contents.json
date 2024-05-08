@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Bos-n-Frozen-Seafood-Raw-Giant-Calamari-Rings-1-lb-Fully-Cleaned-and-Ready-to-Cook-14g-Protein-per-Serving-Contains-Squid_5c70cf15-fe32-40e3-9e61-e2c99af87e15.f0aee4ec1bb4f988492c44dcd57ab7c8.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
