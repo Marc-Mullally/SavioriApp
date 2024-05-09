@@ -1,20 +1,20 @@
 //
-//  recipeListTableViewController.swift
+//  IngredientsTableViewController.swift
 //  Saviori_App
 //
-//  Created by 11k on 3/6/24.
+//  Created by 11k on 4/8/24.
 //
 
 import UIKit
 
-class recipeListTableViewController: UITableViewController {
+class IngredientsTableViewController: UITableViewController {
 
-    
-    var recipes = [RecipeList]()
-    var s : String?
+    var recipes = [String]()
+    //var s : String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(recipes)
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -32,31 +32,23 @@ class recipeListTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        let r = recipes.count
-        
-        return r
+        return recipes.count
     }
 
-  
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+   
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+    
+    
+    {
+      
+
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell2", for: indexPath)
        
-        cell.textLabel?.text = recipes[indexPath.row].recipeName
+        cell.textLabel?.text = recipes[indexPath.row]
         return cell
     }
     
 
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let destinationController = segue.destination as? IngredientsTableViewController,
-           let indexPath = tableView.indexPathForSelectedRow {
-            print("Recipes array: \(recipes)")
-            print("Index path: \(indexPath)")
-            let recipe = recipes[indexPath.row]
-            print("Recipe ingredients: \(recipe.ingredients)")
-            destinationController.recipes = recipe.ingredients
-        }
-    }
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
@@ -73,7 +65,7 @@ class recipeListTableViewController: UITableViewController {
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }
+        }    
     }
     */
 
@@ -103,4 +95,3 @@ class recipeListTableViewController: UITableViewController {
     */
 
 }
-

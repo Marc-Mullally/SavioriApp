@@ -31,6 +31,8 @@
 		3CD433C12BEBDE560093EEBC /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD433B92BEBDE560093EEBC /* Profile.swift */; };
 		3CD433C32BEBDE5C0093EEBC /* Information Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD433C22BEBDE5B0093EEBC /* Information Page.swift */; };
 		3CD433C52BEBDEF80093EEBC /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3CD433C42BEBDEF70093EEBC /* Base.lproj */; };
+		50F50BCF2BED445F0016AA32 /* AddCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F50BCE2BED445F0016AA32 /* AddCountryViewController.swift */; };
+		50F50BD12BED447C0016AA32 /* IngredientsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F50BD02BED447C0016AA32 /* IngredientsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,8 @@
 		3CD433B92BEBDE560093EEBC /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = SOURCE_ROOT; };
 		3CD433C22BEBDE5B0093EEBC /* Information Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Information Page.swift"; sourceTree = SOURCE_ROOT; };
 		3CD433C42BEBDEF70093EEBC /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		50F50BCE2BED445F0016AA32 /* AddCountryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCountryViewController.swift; sourceTree = "<group>"; };
+		50F50BD02BED447C0016AA32 /* IngredientsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				3CD433B62BEBDE550093EEBC /* File.swift */,
 				3CD433B32BEBDE540093EEBC /* Ingredient.swift */,
 				3CD433B22BEBDE540093EEBC /* preferredIngredientsTableView.swift */,
+				50F50BCE2BED445F0016AA32 /* AddCountryViewController.swift */,
+				50F50BD02BED447C0016AA32 /* IngredientsTableViewController.swift */,
 				3CD433B92BEBDE560093EEBC /* Profile.swift */,
 				3CA824622BEBE18E00867677 /* LaunchScreen.storyboard */,
 				3CA824642BEBE18E00867677 /* Main.storyboard */,
@@ -195,6 +201,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CD433C12BEBDE560093EEBC /* Profile.swift in Sources */,
+				50F50BD12BED447C0016AA32 /* IngredientsTableViewController.swift in Sources */,
+				50F50BCF2BED445F0016AA32 /* AddCountryViewController.swift in Sources */,
 				3CCD1DA02BEAB5C70043B170 /* AppDelegate.swift in Sources */,
 				3CD433C32BEBDE5C0093EEBC /* Information Page.swift in Sources */,
 				3CD433AB2BEBDE2C0093EEBC /* ShoppingTableViewCell.swift in Sources */,

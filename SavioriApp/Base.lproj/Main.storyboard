@@ -12,7 +12,7 @@
         <!--Item-->
         <scene sceneID="joZ-d3-bfR">
             <objects>
-                <viewController id="hkb-NB-aXo" customClass="Profile" customModule="Saviori_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hkb-NB-aXo" customClass="Profile" customModule="SavioriApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8KK-bx-BDa">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -140,7 +140,7 @@
                                                     <constraint firstAttribute="width" constant="318" id="yrd-7F-6DK"/>
                                                 </constraints>
                                                 <prototypes>
-                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="favorites" rowHeight="135" id="8xR-y2-347" customClass="profileFavoriteRecipesTableViewCell" customModule="Saviori_App" customModuleProvider="target">
+                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="favorites" rowHeight="135" id="8xR-y2-347" customClass="profileFavoriteRecipesTableViewCell" customModule="SavioriApp" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="50" width="318" height="135"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8xR-y2-347" id="LUq-VT-qyk">
@@ -221,7 +221,7 @@
                                                 <color key="textColor" systemColor="systemOrangeColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="135" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="d4J-3h-drb" customClass="preferredIngredientsTableView" customModule="Saviori_App" customModuleProvider="target">
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="135" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="d4J-3h-drb" customClass="preferredIngredientsTableView" customModule="SavioriApp" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="1010.3333333333333" width="318" height="135"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
@@ -229,7 +229,7 @@
                                                     <constraint firstAttribute="height" constant="135" id="INu-3x-Dn2"/>
                                                 </constraints>
                                                 <prototypes>
-                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="favorites" rowHeight="128" id="5Tr-4o-aYK" customClass="profilePreferredIngredientsTableViewCell" customModule="Saviori_App" customModuleProvider="target">
+                                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="favorites" rowHeight="128" id="5Tr-4o-aYK" customClass="profilePreferredIngredientsTableViewCell" customModule="SavioriApp" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="50" width="318" height="128"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5Tr-4o-aYK" id="O8B-wR-SfY">
@@ -369,13 +369,13 @@
         <!--Item-->
         <scene sceneID="FQE-RT-NEL">
             <objects>
-                <tableViewController id="JfK-pM-ptB" customClass="shoppingCart" customModule="Saviori_App" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="JfK-pM-ptB" customClass="shoppingCart" customModule="SavioriApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="165" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="gxN-6U-eeh">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Shopping" rowHeight="160" id="sdF-ZW-pqj" customClass="ShoppingTableViewCell" customModule="Saviori_App" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Shopping" rowHeight="160" id="sdF-ZW-pqj" customClass="ShoppingTableViewCell" customModule="SavioriApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="50" width="393" height="160"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sdF-ZW-pqj" id="JBc-1m-mcg">
@@ -546,7 +546,7 @@
         <!--View Controller-->
         <scene sceneID="VVm-Kb-5Jw">
             <objects>
-                <viewController id="Fdg-Cn-Pz3" customClass="ViewController" customModule="Saviori_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Fdg-Cn-Pz3" customClass="ViewController" customModule="SavioriApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SES-8n-xxf">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -638,14 +638,14 @@
         <!--Countries-->
         <scene sceneID="7Za-Gs-Sa1">
             <objects>
-                <collectionViewController id="gAN-9Y-xgb" customClass="RecipeCollectionViewController" customModule="Saviori_App" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="gAN-9Y-xgb" customClass="RecipeCollectionViewController" customModule="SavioriApp" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="ZnM-SH-1PO">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <collectionViewLayout key="collectionViewLayout" id="klN-vf-AJ9" customClass="layout"/>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="table" id="5dt-R4-z5o" customClass="RecipeCollectionViewCell" customModule="Saviori_App" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="table" id="5dt-R4-z5o" customClass="RecipeCollectionViewCell" customModule="SavioriApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="pA4-Os-VDE">
@@ -698,7 +698,7 @@
         <!--List of Recipes-->
         <scene sceneID="DkJ-Ny-yu9">
             <objects>
-                <tableViewController id="lST-0Y-aqN" customClass="recipeListTableViewController" customModule="Saviori_App" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="lST-0Y-aqN" customClass="recipeListTableViewController" customModule="SavioriApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="36b-rT-tYN">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -993,7 +993,7 @@
         <!--Information Page Controller-->
         <scene sceneID="mSL-4G-I6C">
             <objects>
-                <viewController id="scC-8e-d83" customClass="InformationPageController" customModule="Saviori_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="scC-8e-d83" customClass="InformationPageController" customModule="SavioriApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Baa-cX-blk">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1176,6 +1176,217 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M45-Gq-eYM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1589" y="99"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="BwK-EG-cWB">
+            <objects>
+                <viewController id="ymC-Hz-6Oe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Av-u6-rCe">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="mtR-Z7-8Eo">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hAh-Mg-GrS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mtR-Z7-8Eo" firstAttribute="top" secondItem="hAh-Mg-GrS" secondAttribute="top" id="DrL-BD-w8s"/>
+                            <constraint firstItem="hAh-Mg-GrS" firstAttribute="bottom" secondItem="mtR-Z7-8Eo" secondAttribute="bottom" id="QgV-SW-iCU"/>
+                            <constraint firstItem="mtR-Z7-8Eo" firstAttribute="leading" secondItem="hAh-Mg-GrS" secondAttribute="leading" id="SRk-0b-jdz"/>
+                            <constraint firstItem="hAh-Mg-GrS" firstAttribute="trailing" secondItem="mtR-Z7-8Eo" secondAttribute="trailing" id="pj1-WC-RRd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Wp-oI-2kj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3279" y="2575"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="nl5-sP-v7Q">
+            <objects>
+                <viewController id="dnY-YI-0eA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pDt-Kh-slm">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0zI-ha-Kp3">
+                                <rect key="frame" x="16" y="126" width="283" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="S8I-zQ-Qoo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="VGK-4d-fQ8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Cg-DH-3vJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3985" y="1239"/>
+        </scene>
+        <!--Countries-->
+        <scene sceneID="XUS-dh-aYr">
+            <objects>
+                <collectionViewController id="0Y0-Mt-jML" customClass="RecipeCollectionViewController" customModule="Saviori_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="94h-qR-XXP">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewLayout key="collectionViewLayout" id="xCs-IS-iat" customClass="layout"/>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="table" id="ftA-WU-vzq" customClass="RecipeCollectionViewCell" customModule="Saviori_App" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="150" height="137"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="AvF-G9-IZ8">
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="137"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="V2L-Lv-CJP">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="137"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="109" id="bjN-k0-mgc"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ax8-Us-06V">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="V2L-Lv-CJP" firstAttribute="centerY" secondItem="AvF-G9-IZ8" secondAttribute="centerY" id="9VX-lF-n2t"/>
+                                        <constraint firstItem="Ax8-Us-06V" firstAttribute="leading" secondItem="AvF-G9-IZ8" secondAttribute="leading" id="FKW-3e-LJu"/>
+                                        <constraint firstItem="V2L-Lv-CJP" firstAttribute="top" secondItem="AvF-G9-IZ8" secondAttribute="top" id="LVY-Q4-820"/>
+                                        <constraint firstAttribute="trailing" secondItem="V2L-Lv-CJP" secondAttribute="trailing" id="N2G-RY-VLF"/>
+                                        <constraint firstItem="V2L-Lv-CJP" firstAttribute="top" secondItem="Ax8-Us-06V" secondAttribute="top" id="T7m-mb-j6z"/>
+                                        <constraint firstAttribute="trailing" secondItem="Ax8-Us-06V" secondAttribute="trailing" id="bZF-XS-HGE"/>
+                                        <constraint firstItem="V2L-Lv-CJP" firstAttribute="leading" secondItem="AvF-G9-IZ8" secondAttribute="leading" id="k9E-6A-qku"/>
+                                        <constraint firstItem="Ax8-Us-06V" firstAttribute="leading" secondItem="AvF-G9-IZ8" secondAttribute="leading" id="ms6-I7-hBk"/>
+                                        <constraint firstAttribute="bottom" secondItem="V2L-Lv-CJP" secondAttribute="bottom" id="puV-xj-CMf"/>
+                                    </constraints>
+                                </collectionViewCellContentView>
+                                <size key="customSize" width="150" height="137"/>
+                                <connections>
+                                    <outlet property="imageView" destination="V2L-Lv-CJP" id="f92-aY-s1F"/>
+                                    <outlet property="recipeName" destination="Ax8-Us-06V" id="dGL-T7-dS9"/>
+                                    <segue destination="x1d-QZ-mo6" kind="show" id="bwF-Yy-Sff"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="0Y0-Mt-jML" id="feB-TB-cfp"/>
+                            <outlet property="delegate" destination="0Y0-Mt-jML" id="jta-i3-G43"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Countries" id="sb3-46-Gmd">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="erP-u4-RZ7"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="bsb-Ld-p1M">
+                            <connections>
+                                <segue destination="dnY-YI-0eA" kind="show" id="Kmv-JP-e4q"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="AddOutlet" destination="bsb-Ld-p1M" id="92P-5Z-tUD"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yPz-yT-EJp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3245" y="1808"/>
+        </scene>
+        <!--List of Recipes-->
+        <scene sceneID="o16-Uc-cOu">
+            <objects>
+                <tableViewController id="x1d-QZ-mo6" customClass="recipeListTableViewController" customModule="Saviori_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Egv-Uf-Avw">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="84" id="epU-uB-e13">
+                                <rect key="frame" x="0.0" y="50" width="393" height="84"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="epU-uB-e13" id="4ik-tV-vEV">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="84"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Yn7-1q-9Qu" kind="show" id="pER-6p-bio"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="x1d-QZ-mo6" id="vwd-o7-n6K"/>
+                            <outlet property="delegate" destination="x1d-QZ-mo6" id="nCc-Dt-tNp"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="List of Recipes" id="2qO-SB-kYw"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cso-fl-dTi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3985" y="1956"/>
+        </scene>
+        <!--Ingredients Table View Controller-->
+        <scene sceneID="gua-bj-HAV">
+            <objects>
+                <tableViewController id="Yn7-1q-9Qu" customClass="IngredientsTableViewController" customModule="Saviori_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="pTp-XK-VjL">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell2" textLabel="hsF-PG-SaO" style="IBUITableViewCellStyleDefault" id="4Ta-in-Y7E">
+                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4Ta-in-Y7E" id="yey-jE-71A">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hsF-PG-SaO">
+                                            <rect key="frame" x="20" y="0.0" width="353" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Yn7-1q-9Qu" id="3Ne-M1-pac"/>
+                            <outlet property="delegate" destination="Yn7-1q-9Qu" id="E2A-7X-WRn"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="JKO-cu-cgu"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hVM-D6-VV7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5173" y="1697"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bDM-UK-tvl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wCi-cc-jN9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="P6i-xy-UJI">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0Y0-Mt-jML" kind="relationship" relationship="rootViewController" id="KX6-AJ-oRb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2GT-5R-S3V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2611" y="1589"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
