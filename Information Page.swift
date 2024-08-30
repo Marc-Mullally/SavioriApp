@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 
 class InformationPageController: UIViewController {
+    
    var ingredient:Ingredient?
     
     

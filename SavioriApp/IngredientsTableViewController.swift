@@ -9,7 +9,7 @@ import UIKit
 
 class IngredientsTableViewController: UITableViewController {
 
-    var recipes = [String]()
+    var recipes = [sumRecipe]()
     //var s : String?
     
     override func viewDidLoad() {
@@ -44,7 +44,7 @@ class IngredientsTableViewController: UITableViewController {
 
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell2", for: indexPath)
        
-        cell.textLabel?.text = recipes[indexPath.row]
+        cell.textLabel?.text = recipes[indexPath.row].recipeName
         return cell
     }
     

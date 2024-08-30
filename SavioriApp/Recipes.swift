@@ -11,23 +11,32 @@
 import Foundation
 import UIKit
 
-struct Recipe{
+struct Recipe {
+    var recipeName: String = ""
+    var calories : Int
+    var name : String
+    var dishType : String
+    var cost : Double
+    var ingredients: [Ingredient] = []
+    var image : UIImage
+    var likes : Int = 0
+    var favorites : Int = 0
+}
+
+struct RecipeList {
+    
     var name: String = ""
-    var recipelist: [RecipeList] = []
+    var recipelist: [sumRecipe] = []
     var imageView: UIImage
     
-    
-    
-    
 }
 
-struct RecipeList{
-    
+struct sumRecipe {
+
     var recipeName: String = ""
     var ingredients: [String] = []
+
 }
-
-
 
 ////  Recipes.swift
 ////  Saviori_App

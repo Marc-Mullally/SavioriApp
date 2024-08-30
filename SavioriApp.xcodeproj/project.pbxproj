@@ -10,6 +10,8 @@
 		3CA824662BEBE18E00867677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA824622BEBE18E00867677 /* LaunchScreen.storyboard */; };
 		3CA824672BEBE18E00867677 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA824642BEBE18E00867677 /* Main.storyboard */; };
 		3CA824692BEBE1E200867677 /* layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA824682BEBE1E200867677 /* layout.swift */; };
+		3CA8246B2BEE91A500867677 /* logIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8246A2BEE91A500867677 /* logIn.swift */; };
+		3CA8246D2BEE91B400867677 /* signUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8246C2BEE91B400867677 /* signUp.swift */; };
 		3CCD1DA02BEAB5C70043B170 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCD1D9F2BEAB5C70043B170 /* AppDelegate.swift */; };
 		3CCD1DA22BEAB5C70043B170 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCD1DA12BEAB5C70043B170 /* SceneDelegate.swift */; };
 		3CCD1DA92BEAB5CA0043B170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CCD1DA82BEAB5CA0043B170 /* Assets.xcassets */; };
@@ -25,12 +27,12 @@
 		3CD433BB2BEBDE560093EEBC /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD433B32BEBDE540093EEBC /* Ingredient.swift */; };
 		3CD433BC2BEBDE560093EEBC /* AccountInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD433B42BEBDE540093EEBC /* AccountInformation.swift */; };
 		3CD433BD2BEBDE560093EEBC /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD433B52BEBDE550093EEBC /* Store.swift */; };
-		3CD433BE2BEBDE560093EEBC /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD433B62BEBDE550093EEBC /* File.swift */; };
 		3CD433BF2BEBDE560093EEBC /* profilePreferredIngredientsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD433B72BEBDE550093EEBC /* profilePreferredIngredientsTableViewCell.swift */; };
 		3CD433C02BEBDE560093EEBC /* profileFavoriteRecipesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD433B82BEBDE560093EEBC /* profileFavoriteRecipesTableViewCell.swift */; };
 		3CD433C12BEBDE560093EEBC /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD433B92BEBDE560093EEBC /* Profile.swift */; };
 		3CD433C32BEBDE5C0093EEBC /* Information Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD433C22BEBDE5B0093EEBC /* Information Page.swift */; };
 		3CD433C52BEBDEF80093EEBC /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3CD433C42BEBDEF70093EEBC /* Base.lproj */; };
+		3CE8C2822BFE601C005C2019 /* topRecipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE8C2812BFE601C005C2019 /* topRecipes.swift */; };
 		50F50BCF2BED445F0016AA32 /* AddCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F50BCE2BED445F0016AA32 /* AddCountryViewController.swift */; };
 		50F50BD12BED447C0016AA32 /* IngredientsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F50BD02BED447C0016AA32 /* IngredientsTableViewController.swift */; };
 /* End PBXBuildFile section */
@@ -39,6 +41,8 @@
 		3CA824632BEBE18E00867677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CA824652BEBE18E00867677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CA824682BEBE1E200867677 /* layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = layout.swift; sourceTree = "<group>"; };
+		3CA8246A2BEE91A500867677 /* logIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logIn.swift; sourceTree = "<group>"; };
+		3CA8246C2BEE91B400867677 /* signUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUp.swift; sourceTree = "<group>"; };
 		3CCD1D9C2BEAB5C70043B170 /* SavioriApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SavioriApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CCD1D9F2BEAB5C70043B170 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CCD1DA12BEAB5C70043B170 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,12 +60,12 @@
 		3CD433B32BEBDE540093EEBC /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = SOURCE_ROOT; };
 		3CD433B42BEBDE540093EEBC /* AccountInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountInformation.swift; sourceTree = SOURCE_ROOT; };
 		3CD433B52BEBDE550093EEBC /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = SOURCE_ROOT; };
-		3CD433B62BEBDE550093EEBC /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = SOURCE_ROOT; };
 		3CD433B72BEBDE550093EEBC /* profilePreferredIngredientsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profilePreferredIngredientsTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		3CD433B82BEBDE560093EEBC /* profileFavoriteRecipesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileFavoriteRecipesTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		3CD433B92BEBDE560093EEBC /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = SOURCE_ROOT; };
 		3CD433C22BEBDE5B0093EEBC /* Information Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Information Page.swift"; sourceTree = SOURCE_ROOT; };
 		3CD433C42BEBDEF70093EEBC /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		3CE8C2812BFE601C005C2019 /* topRecipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topRecipes.swift; sourceTree = "<group>"; };
 		50F50BCE2BED445F0016AA32 /* AddCountryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCountryViewController.swift; sourceTree = "<group>"; };
 		50F50BD02BED447C0016AA32 /* IngredientsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +84,8 @@
 		3CCD1D932BEAB5C70043B170 = {
 			isa = PBXGroup;
 			children = (
+				3CA8246C2BEE91B400867677 /* signUp.swift */,
+				3CA8246A2BEE91A500867677 /* logIn.swift */,
 				3CCD1D9E2BEAB5C70043B170 /* SavioriApp */,
 				3CCD1D9D2BEAB5C70043B170 /* Products */,
 			);
@@ -102,7 +108,6 @@
 				3CD433C42BEBDEF70093EEBC /* Base.lproj */,
 				3CD433C22BEBDE5B0093EEBC /* Information Page.swift */,
 				3CD433B42BEBDE540093EEBC /* AccountInformation.swift */,
-				3CD433B62BEBDE550093EEBC /* File.swift */,
 				3CD433B32BEBDE540093EEBC /* Ingredient.swift */,
 				3CD433B22BEBDE540093EEBC /* preferredIngredientsTableView.swift */,
 				50F50BCE2BED445F0016AA32 /* AddCountryViewController.swift */,
@@ -118,6 +123,7 @@
 				3CD433A52BEBDE2A0093EEBC /* RecipeCollectionViewCell.swift */,
 				3CA824682BEBE1E200867677 /* layout.swift */,
 				3CD433A82BEBDE2B0093EEBC /* RecipeCollectionViewController.swift */,
+				3CE8C2812BFE601C005C2019 /* topRecipes.swift */,
 				3CD433A72BEBDE2B0093EEBC /* recipeListTableViewController.swift */,
 				3CD433A42BEBDE2A0093EEBC /* Recipes.swift */,
 				3CD433A62BEBDE2B0093EEBC /* ShoppingTableViewCell.swift */,
@@ -207,15 +213,17 @@
 				3CD433C32BEBDE5C0093EEBC /* Information Page.swift in Sources */,
 				3CD433AB2BEBDE2C0093EEBC /* ShoppingTableViewCell.swift in Sources */,
 				3CD433AD2BEBDE2C0093EEBC /* RecipeCollectionViewController.swift in Sources */,
+				3CA8246D2BEE91B400867677 /* signUp.swift in Sources */,
+				3CA8246B2BEE91A500867677 /* logIn.swift in Sources */,
 				3CD433C02BEBDE560093EEBC /* profileFavoriteRecipesTableViewCell.swift in Sources */,
 				3CCD1DA22BEAB5C70043B170 /* SceneDelegate.swift in Sources */,
 				3CD433BA2BEBDE560093EEBC /* preferredIngredientsTableView.swift in Sources */,
 				3CD433AF2BEBDE340093EEBC /* shoppingCart.swift in Sources */,
 				3CD433AA2BEBDE2C0093EEBC /* RecipeCollectionViewCell.swift in Sources */,
 				3CD433BD2BEBDE560093EEBC /* Store.swift in Sources */,
+				3CE8C2822BFE601C005C2019 /* topRecipes.swift in Sources */,
 				3CA824692BEBE1E200867677 /* layout.swift in Sources */,
 				3CD433AC2BEBDE2C0093EEBC /* recipeListTableViewController.swift in Sources */,
-				3CD433BE2BEBDE560093EEBC /* File.swift in Sources */,
 				3CD433A32BEBDE200093EEBC /* profileRecipesTableViewCell.swift in Sources */,
 				3CD433A92BEBDE2C0093EEBC /* Recipes.swift in Sources */,
 				3CD433BF2BEBDE560093EEBC /* profilePreferredIngredientsTableViewCell.swift in Sources */,

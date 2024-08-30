@@ -10,7 +10,7 @@ import UIKit
 class recipeListTableViewController: UITableViewController {
 
     
-    var recipes = [RecipeList]()
+    var recipes = [sumRecipe]()
     var s : String?
     
     override func viewDidLoad() {
@@ -52,9 +52,8 @@ class recipeListTableViewController: UITableViewController {
            let indexPath = tableView.indexPathForSelectedRow {
             print("Recipes array: \(recipes)")
             print("Index path: \(indexPath)")
-            let recipe = recipes[indexPath.row]
-            print("Recipe ingredients: \(recipe.ingredients)")
-            destinationController.recipes = recipe.ingredients
+            print("Recipe ingredients: \(recipes[indexPath.row].ingredients)")
+            destinationController.recipes = recipes
         }
     }
     /*
